@@ -1,4 +1,3 @@
-# LinkedIn
 LinkedIn Showcase
 
 Greetings,
