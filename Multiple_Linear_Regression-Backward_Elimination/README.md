@@ -24,8 +24,13 @@ Backward elimination is a stepwise regression technique used to select the most 
 # Example Usage:
 
 #Read the data set
+
 df = pd.read_csv('Dataset.csv')
+
 #Convert categorical variables to numeric, this will be included in the code at some point
+
 df['State'] = df['State'].astype('category').cat.codes
+
 #Call the backward_elimination function
+
 model = backward_elimination(df)
